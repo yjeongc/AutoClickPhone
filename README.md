@@ -23,18 +23,14 @@ Minimal ADB and Fastboot가 설치된 상태에서 ADB가 정상적으로 동작
    ```sh
    adb devices
    ```
-2. 실행 결과가 아래와 같이 나오면 정상적으로 연결된 것입니다:
+2. 실행 결과가 아래와 같이 나와야 합니다:
    ```
    List of devices attached
    XXXXXXXXXXXX    device
    ```
-3. 만약 `unauthorized` 상태가 표시되면, 스마트폰 화면에서 **USB 디버깅 허용** 팝업이 나타납니다. `허용(Allow)`을 선택하면 연결이 완료됩니다.
+3. 만약 `unauthorized` 상태가 표시되면, 스마트폰 화면에서 **USB 디버깅 허용** 팝업이 나타납니다. `허용(Allow)`을 선택해주세요.
 
 ### 1.2 ADB 연결 문제 해결
-- `adb devices` 실행 시 장치가 표시되지 않으면:
-  - USB 케이블을 변경하거나 다른 포트에 연결해 보세요.
+- `adb devices` 실행 시 장치가 표시되지 않으면?
   - 스마트폰에서 `USB 디버깅`이 활성화되었는지 확인하세요.
-  - `adb kill-server && adb start-server` 명령어를 실행하여 ADB 서버를 다시 시작하세요.
-  - `adb devices`를 다시 실행하여 연결을 확인하세요.
-
 
