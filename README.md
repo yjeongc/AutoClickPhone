@@ -1,7 +1,8 @@
 # Minimal ADB and Fastboot 환경 설정 (Android)
 
 ## 1. ADB 환경 설정
-Minimal ADB and Fastboot가 설치된 상태에서 ADB가 정상적으로 동작하는지 확인합니다.
+Minimal ADB and Fastboot가 설치가 선행되어야 합니다.
+Minimal ADB and Fastboot 설치가 완료되면 ADB가 정상적으로 동작하는지 확인한 후에 아래 과정을 진행합니다.
 
 ### 1.1 ADB 활성화 및 장치 연결
 
